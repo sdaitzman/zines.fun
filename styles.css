@@ -143,9 +143,7 @@ a:active {
 }
 
 @media (max-width: 850px) {
-  body {
-    justify-content: start;
-  }
+
   .about-zines, .profiles {
     font-size: 18px;
     padding: 0;
@@ -172,8 +170,9 @@ a:active {
     top: -5px;
   }
   .body-container {
-    margin: 2vh 1vw;
-    padding: 10px;
+    margin: 10vh 0;
+    /* padding: 10px; */
+    max-width: 275px;
   }
   .nav-list {
     margin: 5px 0 25px;
@@ -194,6 +193,6 @@ a:active {
     content: none;
   }
   .hero {
-    padding: 15px;
+    font-size: 36px;
   }
 }

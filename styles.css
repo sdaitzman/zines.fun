@@ -29,8 +29,7 @@ body {
 }
 
 .body-container {
-  margin: 3vw;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .page-header {
@@ -51,6 +50,7 @@ body {
 .noun-type, .zine-pronounce {
   margin-top: 0;
   margin-bottom: 0;
+  display: inline;
 }
 
 .noun-type {
@@ -59,6 +59,15 @@ body {
   display: inline-flex;
   font-style: italic;
   padding-left: 16px;
+}
+
+.zine-pronounce {
+  cursor: help;
+}
+
+.zine-pronounce i {
+  font-size: 16px;
+  color: #b1b1b1;
 }
 
 .about-zines, .profiles {
@@ -115,6 +124,7 @@ a:active {
   font-size: 48px;
   padding: 25px 200px;
   line-height: 48px;
+  width: 100%;
 }
 
 .hero:hover {

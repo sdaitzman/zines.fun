@@ -16,7 +16,7 @@ html {
   animation: fadeIn 0.4s ease-out;
   font-family: "IBM Plex Sans";
   font-weight: 300;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 body {
@@ -29,11 +29,11 @@ body {
 }
 
 .body-container {
-  max-width: 1200px;
+  max-width: 600px;
 }
 
 .page-header {
-  padding-left: 175px;
+  /* padding-left: 175px; */
   flex-direction: column;
   align-items: flex-start;
 }
@@ -73,15 +73,15 @@ body {
 .about-zines, .profiles {
   font: 30px "IBM Plex Sans";
   font-weight: 300;
-  padding-left:175px;
-  padding-right: 20px;
-  text-align: justify;
+  /* padding-left:175px; */
+  /* padding-right: 20px; */
+  /* text-align: justify; */
 }
 
 
 .profiles ul {
   padding: 0;
-  list-style: none;
+  margin: 0;
   display: block;
   flex-direction: row;
   line-height: 50px;
@@ -119,22 +119,27 @@ a:active {
 
 .hero {
   color: #e13d79;
-  border: 2px solid #e13d79;
   text-align: center;
   font-size: 48px;
-  padding: 25px 200px;
   line-height: 48px;
-  width: 100%;
+  border-bottom: none;
+  border-bottom: 2px solid #e13d79;
+  padding-bottom: 11px;
 }
 
-.hero:hover {
-  color: white;
-  background-color: #e13d79;
+.hero:hover, .hero:focus {
+  color: #b91d56;
+  border-bottom-color: #b91d56;
 }
 
 .hero:active {
-  background-color: #8D92B9;
-  border-color: #8D92B9;
+  /* background-color: hsla(338, 73%, 79%, 1); */
+  color: hsla(338, 73%, 80%, 1);
+  border-bottom-color: hsla(338, 73%, 80%, 1);
+}
+
+.hero i::before {
+  font-size: 32px;
 }
 
 @media (max-width: 850px) {

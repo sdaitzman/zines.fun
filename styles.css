@@ -1,6 +1,6 @@
 @keyframes fadeIn {
-  from { opacity: 0;transform: translateY(-20px) }
-  to { opacity: 1;transform: translateY(0) }
+  from { opacity: 0;transform: scale(0.98) }
+  to { opacity: 1;transform: scale(1) }
 }
 
 html, body {
@@ -21,7 +21,6 @@ html {
 
 body {
   box-sizing: border-box;
-  border-left: 7vw solid #e13d79;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -30,12 +29,14 @@ body {
 }
 
 .body-container {
-margin: 3vw;
+  margin: 3vw;
+  max-width: 1000px;
 }
 
 .page-header {
   padding-left: 175px;
-  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .page-title {
@@ -44,17 +45,23 @@ margin: 3vw;
   font-weight: 500;
   margin: 0;
   line-height: 1;
-  align-self: center;
+  display: inline-flex;
 }
 
-.me-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  margin-right: 25px;
+.noun-type, .zine-pronounce {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.about-me, .profiles {
+.noun-type {
+  font-size: 48px;
+  color: #909090;
+  display: inline-flex;
+  font-style: italic;
+  padding-left: 16px;
+}
+
+.about-zines, .profiles {
   font: 30px "IBM Plex Sans";
   font-weight: 300;
   padding-left:175px;
@@ -103,7 +110,6 @@ a:active {
 
 .hero {
   color: #e13d79;
-  /* width: 100%; */
   border: 2px solid #e13d79;
   text-align: center;
   font-size: 48px;
@@ -125,7 +131,7 @@ a:active {
   body {
     justify-content: start;
   }
-  .about-me, .love-typer, .profiles {
+  .about-zines, .profiles {
     font-size: 18px;
     padding: 0;
   }
@@ -133,6 +139,10 @@ a:active {
     padding-left: 0;
     flex-direction: column;
     align-items: center;
+  }
+  .noun-type {
+    font-size: 24px;
+    padding-left: 6px;
   }
   .me-photo {
     width: 85px;

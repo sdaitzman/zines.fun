@@ -33,7 +33,6 @@ body {
 }
 
 .page-header {
-  /* padding-left: 175px; */
   flex-direction: column;
   align-items: flex-start;
 }
@@ -156,11 +155,6 @@ a:active {
   .noun-type {
     font-size: 24px;
     padding-left: 6px;
-  }
-  .me-photo {
-    width: 85px;
-    height: 85px;
-    margin-right: 5px;
   }
   .page-title {
     font-size: 45px;

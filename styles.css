@@ -9,7 +9,7 @@ html, body {
 
 ::selection {
   color: white;
-  background: #656eb3;
+  background: #e13d79;
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 
 body {
   box-sizing: border-box;
-  border-left: 7vw solid #656eb3;
+  border-left: 7vw solid #e13d79;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -92,8 +92,8 @@ a {
 }
 
 a:hover, a:focus {
-  color: #656eb3;
-  border-bottom-color: #656eb3;
+  color: #e13d79;
+  border-bottom-color: #e13d79;
 }
 
 a:active {
@@ -102,9 +102,9 @@ a:active {
 }
 
 .hero {
-  color: #656eb3;
+  color: #e13d79;
   /* width: 100%; */
-  border: 2px solid #656eb3;
+  border: 2px solid #e13d79;
   text-align: center;
   font-size: 48px;
   padding: 25px 200px;
@@ -113,7 +113,7 @@ a:active {
 
 .hero:hover {
   color: white;
-  background-color: #656eb3;
+  background-color: #e13d79;
 }
 
 .hero:active {
@@ -124,7 +124,6 @@ a:active {
 @media (max-width: 850px) {
   body {
     justify-content: start;
-    /* border-left: 7vh solid #656eb3; */
   }
   .about-me, .love-typer, .profiles {
     font-size: 18px;

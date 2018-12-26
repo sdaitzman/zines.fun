@@ -16,7 +16,7 @@ html {
 
 body {
   box-sizing: border-box;
-  border-top: 10px solid #656eb3;
+  border-top: 10px solid #e13d79;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -51,8 +51,8 @@ a {
 }
 
 a:hover, a:focus {
-  color: #656eb3;
-  border-bottom-color: #656eb3;
+  color: #e13d79;
+  border-bottom-color: #e13d79;
 }
 
 a:active {
@@ -62,15 +62,15 @@ a:active {
 
 .go-back {
   font-weight: 500;
-  color: #656eb3;
-  border: 2px solid #656eb3;
+  color: #e13d79;
+  border: 2px solid #e13d79;
   background-color: white;
   padding: 20px;
   text-align: center;
 }
 
 .go-back:hover {
-  background-color: #656eb3;
+  background-color: #e13d79;
   color: white;
 }
 
